@@ -1,0 +1,96 @@
+/* ========= BASE ========= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--very-light-gray);
+  font-family: var(--body-font);
+  color: var(--very-dark-blue);
+}
+
+h1, h2, h3 {
+  font-weight: var(--font-semi-bold);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ========= FONT ========= */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+/* ========= VARIABLES CSS ========= */
+:root {
+  /* ========= COLORS ========= */
+  /* ========= Primary ========= */
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  /* ========= Neutral ========= */
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
+  /* ========= FONT and TYPOGRAPHY ========= */
+  --body-font: "Poppins";
+  --normal-font-size: 15px;
+  --small-font-size: 12px;
+  /* ========= Font Weight ========= */
+  --font-extra-light: 200;
+  --font-regular: normal;
+  --font-semi-bold: 600;
+  /* ========= Margenes ========= */
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 2.5rem;
+  --mb-2: 2rem;
+}
+
+/* ========= LAYOUT ========= */
+.section {
+  padding: 4.5rem 0 5rem;
+}
+
+.container {
+  max-width: 968px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+  margin-top: var(--mb-1);
+}
+
+.grid {
+  display: grid;
+  gap: 4rem;
+}

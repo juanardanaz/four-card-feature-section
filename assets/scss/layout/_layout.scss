@@ -1,0 +1,16 @@
+/* ========= LAYOUT ========= */
+.section {
+    padding: 4.5rem 0 5rem;
+}
+
+.container {
+    max-width: 968px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+    margin-top: var(--mb-1);
+}
+
+.grid {
+    display: grid;
+    gap: 4rem;
+}

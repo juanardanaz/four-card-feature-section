@@ -1,0 +1,29 @@
+/* ========= BASE ========= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--very-light-gray);
+    font-family: var( --body-font);
+    color: var(--very-dark-blue);
+}
+
+h1, h2, h3 {
+    font-weight: var(--font-semi-bold);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
