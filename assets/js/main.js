@@ -10,3 +10,4 @@ const sr = ScrollReveal({
 sr.reveal(`.card_section_title`, {origin: 'bottom'});
 sr.reveal(`.card_section_subtitle`, {delay: 600, origin: 'bottom'});
 sr.reveal(`.card_container`, {delay: 700, origin: 'bottom'});
+sr.reveal(`.footer`, {delay: 800, origin: 'bottom'});
