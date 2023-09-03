@@ -1,0 +1,13 @@
+/* ========= FOOTER ========= */
+.footer{
+    padding: 1.5rem 0 2rem;
+
+    &_attribution { 
+        font-size: 11px; 
+        text-align: center; 
+    }
+
+    &_attribution_link { 
+        color: hsl(228, 45%, 44%); 
+    }
+}
