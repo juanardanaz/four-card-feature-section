@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--=============== DESCRIPTION ===============-->
     <meta name="description" 
-    content="This is a landing page practice, for a company called Huddle">
+    content="This is a landing page practice, for a four card feature section">
     <!--=============== FAVICON ===============-->
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png"> 
     <title>Frontend Mentor | Four card feature section</title>
@@ -14,43 +14,57 @@
 </head>
 <body>
     <section class="card_section section">
-        <h1 class="card_section_title">
-            Reliable, efficient delivery
-            <span>Powered by Technology</span>
-        </h1>
-        <p class="card_section_subtitle"> 
-            Our Artificial Intelligence powered tools 
-            use millions of project data points to ensure 
-            that your project is successful
-        </p>
+        <div class="card_section_data container">
+            <h1 class="card_section_title">
+                Reliable, efficient delivery <br>
+                <span class="card_section_title_tag">Powered by Technology</span>
+            </h1>
+            <p class="card_section_subtitle"> 
+                Our Artificial Intelligence powered tools 
+                use millions of project data points to ensure 
+                that your project is successful
+            </p>
+        </div>
 
         <div class="card_container container">
-            <article class="card">
+            <article class="card card_supervisor">
                 <h3 class="card_title">Supervisor</h3>
                 <p class="card_description">Monitors activity to identify project roadblocks</p>
                 <img src="./assets/img/icon-supervisor.svg" alt="supervisor" class="card_img">
             </article>
 
             <div class="card_content">
-                <article class="card">
+                <article class="card card_team_builder">
                     <h3 class="card_title">Team Builder</h3>
                     <p class="card_description">Scans our talent network to create the optimal team for your project</p>
                     <img src="./assets/img/icon-team-builder.svg" alt="team builder" class="card_img">
                 </article>
 
-                <article class="card">
+                <article class="card card_karma">
                     <h3 class="card_title">Karma</h3>
                     <p class="card_description">Regularly evaluates our talent to ensure quality</p>
                     <img src="./assets/img/icon-karma.svg" alt="karma" class="card_img">
                 </article>
             </div>
 
-            <article class="card">
+            <article class="card card_calculator">
                 <h3 class="card_title">Calculator</h3>
                 <p class="card_description">Uses data from past projects to provide better delivery estimates</p>
                 <img src="./assets/img/icon-calculator.svg" alt="calculator" class="card_img">
             </article>
         </div>
     </section>
+
+    <footer class="footer container">
+        <p class="footer_attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="footer_attribution_link">Frontend Mentor</a>. <br>
+            Coded by <a href="https://jcardanaz.com" class="footer_attribution_link">Juan Cruz Ardanaz</a>.
+        </p>
+    </footer>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <!-- <script src="./assets/js/scrollreveal.min.js"></script> -->
+    <!--=============== MAIN JS ===============-->
+    <!-- <script src="./assets/js/main.js"></script> -->
 </body>
 </html>
