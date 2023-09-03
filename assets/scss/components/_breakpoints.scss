@@ -1,0 +1,82 @@
+/* ========= MEDIA QUERIES ========= */
+/* For Small Devices */
+@media screen and (max-width: 320px) {
+    .card {
+        &_container {
+            padding: 2.5rem 0 5rem;
+        }
+
+        &_section_title {
+            font-size: 1.2rem;
+        }
+
+        &_section_subtitle {
+            font-size: var(--small-font-size);
+        }
+
+        &_img {
+            transform: translateX(9rem);
+        }
+    }
+}
+
+
+/* For Medium Devices */
+@media screen and (min-width: 576px) {
+    .card {
+        &_container {
+            grid-template-columns: 280px;
+            justify-content: center;
+        }
+
+        &_section_data {
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 320px;
+        }
+
+        &_img {
+            transform: translateX(11.5rem);
+        }
+    }
+}
+
+/* For Large Devices */
+@media screen and (min-width: 1150px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card {
+        padding: 1.5rem 1.5rem;
+
+        &_container {
+            grid-template-columns: repeat(3, 280px);
+            align-items: center;
+            padding: 3.5rem 0 5rem;
+        }
+
+        &_description {
+            font-size: 11px;
+            line-height: 1.8;
+        }
+
+        &_section_data {
+            grid-template-columns: 500px;
+        }
+
+        &_section_title {
+            font-size: 2.1rem;
+            line-height: 1.2;
+        }
+
+        &_section_subtitle {
+            font-size: var(--normal-font-size);
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+}
